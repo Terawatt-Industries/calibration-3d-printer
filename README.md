@@ -4,4 +4,4 @@ Bigger pieces mean more accumulated error, which is exactly what we want to meas
 
 See http://phys.columbia.edu/~tutorial/ for more information about getting started with error analysis.
 
-This part _should_ be designed in OpenSCAD and parameterized.  That's straightforward, but once we decided the part needed fancy-schmancy text the plan unraveled.  Imported text from Illustrator CS5 wouldn't work -- at all.  It seems that won't be supported anytime soon, if ever.  We tried to export 3D fonts from Sketchup into OpenSCAD.  However OpenSCAD didn't play nicely with the STL exports.  We performed a little verification that seems to indicate OpenSCAD is the culprit but we got out of that rabbit hole just-in-time.  Inkscape could do it, but we don't have Inkscape.  In a future revision we'd like to abandon the text, or fix it, and go back to SCAD.
+We tried getting fancy and putting text on this part.  We wrestled with Sketchup and Illustrator CS5 to the Nth degree to export something we could work with in OpenSCAD.  It's fairly safe to say - it's just not going to happen without Inkscape.  It seems SVG would help things immensely but it isn't supported ubiquitously.
